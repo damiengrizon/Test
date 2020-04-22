@@ -1,9 +1,15 @@
 public class NombreVoyellesDansPhrase {
+
+    /**
+     * Comme l'indique le nom de la Class, l'exercice ici consiste à compter et donner le nombre puis le pourcentage
+     * dans une chaîne de caractères
+     * @param args ...
+     */
     public static void main(String[] args) {
       String text = " A wonderful string that consist of multiple characters";
       String text2 = "pappa";
       int nbOfVowels = 0;
-      double percentageOfVowels = 0.0;
+      double percentageOfVowels;
 
 
     //methode qui transforme le texte en tableau de lettres et les affiche
