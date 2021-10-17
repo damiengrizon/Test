@@ -12,7 +12,7 @@ public class NombreVoyellesDansPhrase {
       double percentageOfVowels;
 
 
-    //methode qui transforme le texte en tableau de lettres et les affiche
+    //methode qui transforme le texte en tableau de lettres et les affichent
 
     char[] allLetters = text.toCharArray();
     for(char letter : allLetters){
